@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: homeWorkSDJ
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mynotes
+    username: haker
+    password: haker81
+jpa:
+  hibernate:
+    ddl-auto: update
+  show-sql: true
